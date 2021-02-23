@@ -4,12 +4,14 @@ GPIO Shutdown is a simple plugin that can shutdown the Raspberry Pi if a switch 
 
 <img src="https://github.com/fmalekpour/OctoPrint-Gpioshutdown/blob/master/screenshots/gpio-shutdown_bb.jpg?raw=true" width="500px">
 
+## Updates over original
+
+Added the option to use GPIO 3 as a shutdown pin as many users use this pin to turn on their pi, it makes sense to have one button for on/off
+Also added the option to use GPIO 3 as an LED pin because why not
+
 ## Setup
 
-Install via the bundled [Plugin Manager](https://docs.octoprint.org/en/master/bundledplugins/pluginmanager.html)
-or manually using this URL:
-
-    https://github.com/fmalekpour/OctoPrint-Gpioshutdown/archive/master.zip
+    https://github.com/GoldenGorilla123/OctoPrint-Gpioshutdown-Inclding-GPIO3/archive/master.zip
 
 
 ## Configuration
