@@ -10,8 +10,11 @@ Added the option to use GPIO 3 as a shutdown pin as many users use this pin to t
 Also added the option to use GPIO 3 as an LED pin because why not
 
 ## Setup
+In plugin manager from URL:
+    ```https://github.com/GoldenGorilla123/OctoPrint-Gpioshutdown-Inclding-GPIO3/archive/master.zip```
 
-    https://github.com/GoldenGorilla123/OctoPrint-Gpioshutdown-Inclding-GPIO3/archive/master.zip
+Via command line:
+    ```pip install "https://github.com/GoldenGorilla123/OctoPrint-Gpioshutdown-Inclding-GPIO3/archive/master.zip"```
 
 
 ## Configuration
@@ -25,10 +28,4 @@ In web interface, install the plugin and reload if necessary, then click on GPIO
 <img src="https://github.com/fmalekpour/OctoPrint-Gpioshutdown/blob/master/screenshots/screen01.jpg?raw=true" width="500px">
 
 You can find the GPIO pin number assignments at [Raspberry Pi GPIO Pinout](https://www.raspberrypi.org/documentation/usage/gpio/).
-
-
-#### Support me
-
-This plugin was developed in my spare time.
-If you find it useful and like it [Buy me a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WHCDYE3DCBW2Y&source=url), cheers :)
 
